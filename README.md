@@ -1,18 +1,19 @@
 # gulp-snakeparser
 
-Gulp plugin for compiling grammers of [snake-parser](https://github.com/carrotflakes/Snake-Parser).
+[![Build Status](https://travis-ci.org/tanikawa04/gulp-snakeparser.svg?branch=master)](https://travis-ci.org/tanikawa04/gulp-snakeparser)
 
+Gulp plugin for compiling grammers of [snake-parser](https://github.com/carrotflakes/Snake-Parser).
 
 ## Installation
 
 ```bash
-npm install --save-dev gulp-snakeparser
+$ npm install --save-dev gulp-snakeparser
 ```
 
 ## Usage
 
 ```javascript
-var gulp  = require('gulp');
+var gulp = require('gulp');
 var snakeparser = require('gulp-snakeparser');
 
 gulp.task('snakeparser', function() {
