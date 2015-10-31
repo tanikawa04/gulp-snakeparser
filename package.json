@@ -4,7 +4,7 @@
   "description": "Gulp plugin for compiling grammers of snake-parser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "gulp-util": "^3.0.7",
     "snakeparser": "^0.2.3",
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
   }
 }
