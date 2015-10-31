@@ -1,0 +1,27 @@
+{
+  "name": "gulp-snakeparser",
+  "version": "1.0.0",
+  "description": "Gulp plugin for compiling grammers of snake-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanikawa04/gulp-snakeparser.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "tanikawa04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanikawa04/gulp-snakeparser/issues"
+  },
+  "homepage": "https://github.com/tanikawa04/gulp-snakeparser#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "snakeparser": "^0.2.3",
+    "through2": "^2.0.0"
+  }
+}
