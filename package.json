@@ -21,7 +21,7 @@
   "homepage": "https://github.com/tanikawa04/gulp-snakeparser#readme",
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "snakeparser": "^0.2.3",
+    "snakeparser": "^0.2.4-1",
     "through2": "^2.0.0"
   },
   "devDependencies": {
