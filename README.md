@@ -14,7 +14,6 @@ $ npm install --save-dev gulp-snakeparser
 
 Something like this will generate a parse function and set it to `module.exports`:
 
-the parse function that is generated
 ```javascript
 var gulp = require('gulp');
 var snakeparser = require('gulp-snakeparser');
